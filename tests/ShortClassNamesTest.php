@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\TinkerTools\Test;
+namespace Sdbruder\TinkerTools\Test;
 
 use Error;
 use PHPUnit\Framework\TestCase;
-use Spatie\TinkerTools\ShortClassNames;
+use Sdbruder\TinkerTools\ShortClassNames;
 
 class ShortClassNamesTest extends TestCase
 {

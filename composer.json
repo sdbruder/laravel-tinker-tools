@@ -1,7 +1,8 @@
 {
-    "name": "spatie/laravel-tinker-tools",
+    "name": "sdbruder/laravel-tinker-tools",
     "description": "Use short class names in an Artisan tinker session",
     "keywords": [
+        "sdbruder",
         "spatie",
         "laravel-tinker-tools",
         "flysystem",
@@ -9,13 +10,19 @@
         "v2",
         "api"
     ],
-    "homepage": "https://github.com/spatie/laravel-tinker-tools",
+    "homepage": "https://github.com/sdbruder/laravel-tinker-tools",
     "license": "MIT",
     "authors": [
         {
             "name": "Freek Van der Herten",
             "email": "freek@spatie.be",
             "homepage": "https://spatie.be",
+            "role": "Developer"
+        },
+        {
+            "name": "Sergio Devojno Bruder",
+            "email": "sergio@bruder.com.br",
+            "homepage": "http://sergio.bruder.com.br",
             "role": "Developer"
         }
     ],
@@ -28,12 +35,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\TinkerTools\\": "src"
+            "Sdbruder\\TinkerTools\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\TinkerTools\\Test\\": "tests"
+            "Sdbruder\\TinkerTools\\Test\\": "tests"
         }
     },
     "scripts": {

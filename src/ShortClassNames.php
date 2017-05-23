@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\TinkerTools;
+namespace Sdbruder\TinkerTools;
 
 class ShortClassNames
 {

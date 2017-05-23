@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\TinkerTools\Test;
+namespace Sdbruder\TinkerTools\Test;
 
 class NamespacedClass
 {
