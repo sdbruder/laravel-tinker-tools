@@ -5,7 +5,7 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/sdbruder/laravel-tinker-tools.svg?style=flat-square)](https://scrutinizer-ci.com/g/sdbruder/laravel-tinker-tools)
 [![Total Downloads](https://img.shields.io/packagist/dt/sdbruder/laravel-tinker-tools.svg?style=flat-square)](https://packagist.org/packages/sdbruder/laravel-tinker-tools)
 
-## This is a fork
+# This is a fork
 
 This a forked version of [spatie/laravel-tinker-tools](https://github.com/spatie/laravel-tinker-tools) to allow older laravel versions (currently tested 5.2-5.4).
 
