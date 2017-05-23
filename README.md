@@ -1,4 +1,3 @@
-# Use short class names in an Artisan Tinker session
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/sdbruder/laravel-tinker-tools.svg?style=flat-square)](https://packagist.org/packages/sdbruder/laravel-tinker-tools)
 [![Build Status](https://img.shields.io/travis/sdbruder/laravel-tinker-tools/master.svg?style=flat-square)](https://travis-ci.org/sdbruder/laravel-tinker-tools)
@@ -6,7 +5,11 @@
 [![Quality Score](https://img.shields.io/scrutinizer/g/sdbruder/laravel-tinker-tools.svg?style=flat-square)](https://scrutinizer-ci.com/g/sdbruder/laravel-tinker-tools)
 [![Total Downloads](https://img.shields.io/packagist/dt/sdbruder/laravel-tinker-tools.svg?style=flat-square)](https://packagist.org/packages/sdbruder/laravel-tinker-tools)
 
-This a forked version of spatie/laravel-tinker-tools to allow older laravel versions (currently tested 5.2-5.4).
+## This is a fork
+
+This a forked version of [spatie/laravel-tinker-tools](https://github.com/spatie/laravel-tinker-tools) to allow older laravel versions (currently tested 5.2-5.4).
+
+# Use short class names in an Artisan Tinker session
 
 When using Artisan's Tinker command it can be quite bothersome having to type the fully qualified classname to do something simple.
 
