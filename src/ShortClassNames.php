@@ -29,36 +29,22 @@ class ShortClassNames
 
     public function registerAutoloader()
     {
-        if (implode('.', array_slice(explode('.', app()::VERSION), 0, 2)) >= '5.3') {
-            spl_autoload_register([$this, 'aliasClass']);
-        } else {
-            spl_autoload_register([$this, 'aliasClass52']);
-        }
+        spl_autoload_register([$this, 'aliasClass']);
     }
 
     public function aliasClass($findClass)
     {
-        $class = $this->classes->first(function ($class) use ($findClass) {
+        $key = $this->classes->search(function ($class) use ($findClass) {
             return $class['name'] === $findClass;
         });
 
-        if (! $class) {
+        if (! $key) {
             return;
         }
+        
+        $class = $this->classes[$key];
 
         class_alias($class['fqcn'], $class['name']);
     }
 
-    public function aliasClass52($findClass)
-    {
-        $class = $this->classes->first(function ($key, $class) use ($findClass) {
-            return $class['name'] === $findClass;
-        });
-
-        if (! $class) {
-            return;
-        }
-
-        class_alias($class['fqcn'], $class['name']);
-    }
 }
